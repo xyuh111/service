@@ -1,0 +1,86 @@
+<view class="container">
+  <view class="nav scroll_auto_hide {{show_title?'':'scroll_hide'}}">
+    <view bindtap="kindToggle" class="nav_default {{open?'nav_show':''}}">
+      <view class="text">{{select_city}}</view>
+      <image class="img" mode="widthFix" src="../../img/arrow_down.png"></image>
+    </view>
+    <view class="city_hide {{open?'city_show':''}}">
+      <view class="city_nav {{open?'city_nav_show':''}}">
+        <view bindtap="onChangeShowState" class="city" data-city-name="{{city.f_name}}" data-cityId="{{city.f_id}}" wx:for="{{city}}" wx:for-item="city">
+          <view class="city_name">{{city.f_name}}</view>
+          <view class="city_select {{select_city!=city.f_name?'':'show'}}"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <swiper autoplay="true" circular="true" duration="500" indicatorDots="true" interval="5000" bindtap='shopdetai'>
+    <swiper-item class="banner">
+      <button bindgetuserinfo="onClickCLaCBanner" id="c_la_c_banner" lang="zh_CN" openType="getUserInfo">
+        <image class="slide_image" mode="widthFix" src="http://mcdn.xingkeduo.com/image/c_la_c/index_banner.png"></image>
+      </button>
+    </swiper-item>
+    <swiper-item class="banner">
+      <button bindgetuserinfo="onClickXkdMallBanner" id="xkd_mall_banner" lang="zh_CN" openType="getUserInfo">
+        <image class="slide_image" mode="widthFix" src="http://mcdn.xingkeduo.com/image/xkd_mall.jpg"></image>
+      </button>
+    </swiper-item>
+    <swiper-item class="banner">
+      <button bindgetuserinfo="onClickModelling" id="modelling_banner" lang="zh_CN" openType="getUserInfo">
+        <image class="slide_image" mode="widthFix" src="http://mcdn.xingkeduo.com/image/index_modelling_banner.jpg"></image>
+      </button>
+    </swiper-item>
+    <swiper-item class="banner">
+      <button bindgetuserinfo="onClickVotingBanner" id="modelling_banner" lang="zh_CN" openType="getUserInfo">
+        <image class="slide_image" mode="widthFix" src="http://mcdn.xingkeduo.com/image/index_voting_banner.jpg"></image>
+      </button>
+    </swiper-item>
+    <swiper-item class="banner">
+      <button bindgetuserinfo="onClickQuestionnaire" id="hairco_banner" lang="zh_CN" openType="getUserInfo">
+        <image class="slide_image" mode="widthFix" src="http://mcdn.xingkeduo.com/image/index_banner/questionnaire.jpg"></image>
+      </button>
+    </swiper-item>
+  </swiper>
+  <view class="section" bindtap='shopdetai'>
+    <text class="h4">附近门店</text>
+    <view class="grays">为你精选门店</view>
+    <image src="http://mcdn.xingkeduo.com/image/index_banner/questionnaire.jpg"></image>
+    <view class="h5">凤起路店</view>
+    <view class="grays sec_text">
+      <view class="text">
+        <image src="../../img/addr.png"></image> 下城区，凤起路地铁商业街1层</view>
+      <text class="text">1046KM</text>
+    </view>
+    <view class="text_bottom">商品零售</view>
+  </view>
+  <view class="section" bindtap='shopdetai'>
+    <text class="h4">附近门店</text>
+    <view class="grays">为你精选门店</view>
+    <image src="http://mcdn.xingkeduo.com/image/index_banner/questionnaire.jpg"></image>
+    <view class="h5">凤起路店</view>
+    <view class="grays sec_text">
+      <view class="text">
+        <image src="../../img/addr.png"></image> 下城区，凤起路地铁商业街1层</view>
+      <text class="text">1046KM</text>
+    </view>
+    <view class="text_bottom">商品零售</view>
+  </view>
+  <view class="section" bindtap='shopdetai'>
+    <text class="h4">附近门店</text>
+    <view class="grays">为你精选门店</view>
+    <image src="http://mcdn.xingkeduo.com/image/index_banner/questionnaire.jpg"></image>
+    <view class="h5">凤起路店</view>
+    <view class="grays sec_text">
+      <view class="text">
+        <image src="../../img/addr.png"></image> 下城区，凤起路地铁商业街1层</view>
+      <text class="text">1046KM</text>
+    </view>
+    <view class="text_bottom">商品零售</view>
+  </view>
+  <view class="footer">
+    <image src='../../img/bottom_logo.png'></image>
+  </view>
+</view>
+
+<view class="list-loading" wx:if="{{status}}">
+  <image mode="widthFix" src="../../img/loading.gif"></image>
+</view>

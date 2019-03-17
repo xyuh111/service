@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="nav">
+     <view>
+        <view class="h4">huidy</view>
+        <view class="grays">你还没有享受过小星星的服务哦-</view>
+        <view class="text">解锁我的头像管家</view>
+     </view>
+     <view>
+     <image src="../../img/tou.png"/>
+     </view>
+  </view>
+  <view class="section">
+   <view class="list1"><text class="title">优惠卷</text><text class="grays">无可用优惠卷</text><image src="../../img/gray_right.png"/></view>
+   <view class="list2"><text class="title">发型精选</text><text class="red">立即查看更多发型</text><image src="../../img/gray_right.png"/></view>
+   <view class="list3 title">历史评价</view>
+   <view class="list4 title">投诉建议</view>
+   <view class="list5 title">个人设置</view>
+   <view class="list6 title">关于House生活</view>
+  </view>
+  <view class="footer">
+    <image src='../../img/bottom_logo.png'></image>
+  </view>
+</view>

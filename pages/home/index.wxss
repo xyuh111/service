@@ -1,0 +1,134 @@
+.nav.scroll_auto_hide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index:10;
+}
+
+.nav.scroll_auto_hide .nav_default {
+  height: 70rpx;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom:1rpx solid #479ce634;
+  background: #fff;
+}
+
+.nav.scroll_auto_hide .nav_default .img {
+  width: 22rpx;
+  height: 22rpx;
+  margin: 10rpx 0 0rpx 6rpx;
+}
+
+.nav_default.nav_show .img {
+  transform: rotate(180deg);
+  position: relative;
+  top: -2rpx;
+}
+
+.city_hide {
+  display: none;
+}
+
+.city_hide.city_show {
+  display: inherit;
+  background: #b8c4cfe3;
+}
+
+.city_hide .city_nav {
+  widht: 100%;
+  text-align: center;
+}
+
+.city_hide .city {
+  widht: 100%;
+  display: flex;
+  justify-content: center;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.city_select {
+  width: 22rpx;
+  height: 22rpx;
+  margin: 30rpx 0 0rpx 6rpx;
+  position: relative;
+}
+.city_select.show::after{
+  content:"";
+  display: block;
+  width: 14rpx;        
+  height: 32rpx;        
+  border-bottom: 1px solid #479de6;
+  border-right: 1px solid #479de6;
+  transform: rotate(45deg);  
+  position: absolute;
+  bottom:0;
+  left:12rpx;
+}
+.container swiper{
+   width:100%;
+   height:422rpx;
+   margin-top:72rpx;
+}
+.container swiper button{
+  width:100%;
+  height:422rpx;
+  margin:0;
+  padding:0 0rpx;
+  border: none;
+}
+.container swiper image{
+  width:100%;
+  height: 100%;
+}
+
+.section{
+  box-sizing: border-box;
+  padding:0 25rpx 30rpx 25rpx;
+  padding-top:40rpx;
+  border-bottom:1rpx solid #f8f8f8;
+  background: #fff;
+}
+
+.section image{
+  border-radius: 16rpx;
+  height:350rpx;
+  width:100%;
+  margin: 25rpx 0;
+}
+.sec_text{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec_text .text:nth-child(1){
+  display: flex;
+  align-items: center;
+}
+.sec_text image{
+  width:32rpx;
+  height:32rpx;
+}
+.text_bottom{
+  display: inline-block;
+  border: 1rpx solid #b5b5b5; 
+  padding: 2rpx 8rpx;
+  font-size: 20rpx;
+  border-radius: 10rpx;
+}
+
+.footer{
+  height:300rpx;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer image{
+  height:80rpx;
+  width:390rpx;
+}

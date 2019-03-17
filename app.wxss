@@ -1,0 +1,49 @@
+/**app.wxss**/
+page{
+  background: #f8f8f8;
+}
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  color:#666;
+} 
+.h4{
+  font-size: 34rpx;
+  font-weight: 600;
+}
+.h5{
+  font-size: 28rpx;
+  font-weight: 600;
+}
+.title{
+  font-size: 29rpx;
+}
+.theme{
+  color:#479de6
+}
+.grays{
+  color:#b5b5b5;
+  line-height: 50rpx;
+}
+.red{
+  color:#f60
+}
+
+.list-loading{
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-loading image{
+  width:80rpx;
+  height:80rpx;
+}

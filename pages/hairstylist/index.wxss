@@ -1,0 +1,52 @@
+page{
+    background: #fff;
+}
+.container{
+    box-sizing: border-box;
+    padding:0 25rpx;
+}
+.header{
+   border-bottom:1rpx solid #f8f8f8;
+}
+.h4{
+    margin-top:40rpx;
+}
+.grays.text{
+    margin-bottom:25rpx;
+}
+.ection{
+    display: flex;
+    align-items: center;
+    padding:20rpx 0;
+    border-bottom:1px solid #f8f8f8;
+}
+.ection image{
+    width:130rpx;
+    height:130rpx;
+    border-radius: 16rpx;
+    margin-right: 25rpx;
+}
+.ection .content{
+    width: 277rpx;
+}
+.ection .content .text{
+    line-height: 50rpx;
+    color:rgb(134, 131, 131);
+}
+
+.ection .time{
+    height:100%;
+    width: 277rpx;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.ection .time .time1{
+  display:block;
+  color:#fff;
+  padding:8rpx 24rpx 10rpx 24rpx;
+  background: #479de6;
+  margin-bottom:20rpx;
+  border-radius: 28rpx;
+}

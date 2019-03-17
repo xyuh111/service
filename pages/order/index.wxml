@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="nav">
+    <label  class="{{item.checked?'checked':''}}" wx:for="{{title}}" data-name="{{item.name}}" bindtap="radioChange">
+    <tixt>{{item.value}}</tixt>
+  </label>
+  </view>
+
+  <view class="section">
+      <image src="../../img/status_waiting.png"></image>
+      <text class="grays">你还没有任何订单 ~</text>
+  </view>
+</view>
+<view class="list-loading" wx:if="{{status}}">
+  <image mode="widthFix" src="../../img/loading.gif"></image>
+</view>

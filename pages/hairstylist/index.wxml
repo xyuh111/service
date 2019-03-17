@@ -1,0 +1,63 @@
+<view class="container">
+  <view class="header">
+    <view class="h4">选择发型师</view>
+    <view class="grays text">选择您最喜欢的发型师为您服务</view>
+  </view>
+
+  <view class="ection">
+    <view class="img">
+      <image src="http://web.web3n.com/blog/181115/deF6FFCB38.jpg?imageslim"></image>
+    </view>
+    <view class="content">
+      <view class="title theme">huidy</view>
+      <view class="text">精湛来源于美感</view>
+      <view class="title theme">￥45.8</view>
+    </view>
+    <view class="time">
+      <view class="time1">立即预约</view>
+      <view class="theme">最早可约21:00</view>
+    </view>
+  </view>
+   <view class="ection">
+    <view class="img">
+      <image src="http://web.web3n.com/blog/181115/deF6FFCB38.jpg?imageslim"></image>
+    </view>
+    <view class="content">
+      <view class="title theme">huidy</view>
+      <view class="text">精湛来源于美感</view>
+      <view class="title theme">￥45.8</view>
+    </view>
+    <view class="time">
+      <view class="time1">立即预约</view>
+      <view class="theme">最早可约21:00</view>
+    </view>
+  </view>
+   <view class="ection">
+    <view class="img">
+      <image src="http://web.web3n.com/blog/181115/deF6FFCB38.jpg?imageslim"></image>
+    </view>
+    <view class="content">
+      <view class="title theme">huidy</view>
+      <view class="text">精湛来源于美感</view>
+      <view class="title theme">￥45.8</view>
+    </view>
+    <view class="time">
+      <view class="time1">立即预约</view>
+      <view class="theme">最早可约21:00</view>
+    </view>
+  </view>
+   <view class="ection">
+    <view class="img">
+      <image src="http://web.web3n.com/blog/181115/deF6FFCB38.jpg?imageslim"></image>
+    </view>
+    <view class="content">
+      <view class="title theme">huidy</view>
+      <view class="text">精湛来源于美感</view>
+      <view class="title theme">￥45.8</view>
+    </view>
+    <view class="time">
+      <view class="time1">立即预约</view>
+      <view class="theme">最早可约21:00</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,76 @@
+<view class="container">
+  <view class="nav">
+    <image src="http://mcdn.xingkeduo.com/image/xkd_mall.jpg" />
+    <view class="section">
+      <view class="titles">
+        <text class="h4">凤起路店</text>
+        <text class="theme">导航</text>
+      </view>
+      <view class="text grays">
+        <text>10:00-21:05 营业</text>
+        <text>距您 1048KM</text>
+      </view>
+      <view class="content grays">汉中市下城区凤起路</view>
+    </view>
+  </view>
+  <view class="tab grays">
+    <text>商品零售</text>
+  </view>
+  <view class="adwareimg">
+    <image src="../../img/adware.png"></image>
+  </view>
+  <view class="aside" bindtap='bindUrl'>
+    <view class="list1 h4">请选择服务</view>
+    <view class="list2">
+      <text class="h4 now">单人剪发服务</text>
+      <text class="grays">纯粹剪发服务 零废话 不推销</text>
+      <view>
+        <text>￥</text>
+        <text>45.6</text>
+        <image src="../../img/gray_right.png" />
+      </view>
+    </view>
+    <view class="list3">
+      <text class="h4 now">单人刘海服务</text>
+      <text class="grays">女士专属，专业刘海修剪，还你一个时尚刘海</text>
+      <view>
+        <text>￥</text>
+        <text>45.6</text>
+        <image src="../../img/gray_right.png" />
+      </view>
+    </view>
+    <view class="list4">
+      <text class="h4 now">优惠卷兑换</text>
+      <text class="red">持合作平台所购买团购卷在此兑换</text>
+      <image src="../../img/gray_right.png" />
+    </view>
+    <view class="list5 h4">用心好评（1528）</view>
+  </view>
+  <view class="comment">
+    <view class="con1"><image src="../../img/tou.png"></image></view>
+    <view class="con2"><text class="h4">Huidy</text><text class="grays">2019/03/18 16:58</text></view>
+    <view class="con3"><text class="grays">星级</text><image src="{{item}}" wx:for="{{imgs}}"></image></view>
+    <view class="con4 grays"><text>服务 </text> <text>单人剪发服务</text></view>
+    <view class="con5">小雨人很好。很不错。人也美。</view>
+    <view class="con6"><image src="http://mcdn.xingkeduo.com/image/index_banner/questionnaire.jpg" /><image src="http://mcdn.xingkeduo.com/image/index_banner/questionnaire.jpg" /></view>
+    <view class="con7 theme">查看全部评论</view>
+  </view>
+  <view class="shop">
+    <view class="h4">门店信息</view>
+    <view class="shop1">
+      <image src="../../img/shop.png" />
+      <text>这哥们儿抢了银行开车就上了北三环。下午五点半！警察到的时候在路上堵得正瓷实。</text>
+      <image src="../../img/gray_right.png" />
+    </view>
+    <view class="shop2">
+      <image src="../../img/shop.png" />
+      <text>有一天师傅下山蹦迪去。无意中碰到了他年轻时红颜知己的女儿，从见到她这一刻开始，师傅知道他的江湖生涯结束了。注定离开这些白衣如雪来去如风的日子，老人家以八十岁高龄的年纪毅然决然地戴上假发还俗去了</text>
+    </view>
+  </view>
+  <view class="footer">
+    <image src='../../img/bottom_logo.png'></image>
+  </view>
+</view>
+<view class="list-loading" wx:if="{{status}}">
+  <image mode="widthFix" src="../../img/loading.gif"></image>
+</view>

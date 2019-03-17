@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/home/index",
+    "pages/order/index",
+    "pages/user/index",
+    "pages/shop/index",
+    "pages/hairstylist/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "House生活",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#b5b5b5",
+    "selectedColor": "#479de6",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "img/tarb/home.png",
+        "selectedIconPath": "img/tarb/home-active.png"
+      },
+      {
+        "pagePath": "pages/order/index",
+        "text": "订单",
+        "iconPath": "img/tarb/order-default.png",
+        "selectedIconPath": "img/tarb/order.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人中心",
+        "iconPath": "img/tarb/user.png",
+        "selectedIconPath": "img/tarb/user-active.png"
+      }
+    ]
+  }
+}

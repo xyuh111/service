@@ -1,0 +1,245 @@
+
+.nav{
+  box-sizing: border-box;
+  padding:25rpx;
+  background: #fff;
+  display: flex;
+  border:1px solid #f8f8f8;
+}
+
+.nav image{
+ display: block;
+ width:210rpx;
+ height:240rpx;
+ border-radius: 16rpx;
+}
+.nav .section{
+  width: 490rpx;
+  height:240rpx;
+  box-sizing: border-box;
+  padding:10rpx 20rpx;
+ }
+ .nav .section .titles{
+   width:100%;
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .nav .section .text{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  padding:20rpx 0 16rpx 0;
+  border-bottom: 1px solid #f8f8f8;
+}
+.nav .section .content{
+   width:100%;
+   word-break: break-all;
+   margin-top: 16rpx;
+   line-height: 25rpx;
+}
+ 
+.tab{
+  width:100%;
+  height:80rpx;
+  background: #fff;
+  display: inline-flex;
+  align-items: center;
+}
+.tab text{
+  display: inline-block;
+  padding:4rpx 18rpx;
+  line-height: 34rpx;
+  border: 1rpx solid #b5b5b5;
+  border-radius: 8rpx;
+  margin-left:25rpx;
+}
+.adwareimg{
+  background: #fff;
+  padding:25rpx 0;
+}
+.adwareimg image{
+  width:100%;
+  height:100rpx;
+}
+.aside{
+  width:100%;
+}
+.now{
+  font-weight: 500;
+}
+
+.aside image {
+  width:16rpx;
+  height:24rpx;
+}
+.aside .list1{
+  width:100%;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30rpx 25rpx 30rpx 25rpx;
+  margin-bottom:1px;
+  position: relative;
+}
+.aside .list2{
+  width:100%;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30rpx 25rpx 30rpx 25rpx;
+  margin-bottom:1px;
+  position: relative;
+}
+.aside .list2 .grays, .list3 .grays, .list4 .red{
+  display:block;
+}
+.aside .list2 view, .list3 view{
+  position: absolute;
+  right:20rpx;
+  top:50%;
+  margin-top:-20rpx;
+}
+.aside .list2 view text:last-of-type, .list3 view text:last-of-type{
+  font-size: 34rpx;
+  font-weight: 600;
+  margin-right: 16rpx;
+}
+.aside .list3{
+  width:100%;
+  position: relative;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30rpx 25rpx 30rpx 25rpx;
+  margin-bottom:1px;
+}
+.aside .list4 image {
+  position: absolute;
+  right:20rpx;
+  top:50%;
+  margin-top:-9rpx;
+ } 
+.aside .list4{
+  width:100%;
+  position: relative;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30rpx 25rpx 30rpx 25rpx;
+  margin:25rpx 0 ;
+}
+.aside .list5{
+  width:100%;
+  position: relative;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 30rpx 25rpx 30rpx 25rpx;
+  margin-bottom:1px;
+}
+.comment{
+  position: relative;
+  box-sizing: border-box;
+  padding:25rpx 25rpx 25rpx 120rpx;
+  background: #fff;
+}
+.comment .con1{
+  width:80rpx;
+  height:80rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  left:25rpx;
+  top:25rpx;
+
+}
+.comment .con1 image{
+   width:100%;
+   height:100%;
+}
+.comment .con2{
+  margin-top:22rpx;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+.comment .con3{
+  display: flex;
+  align-items: center;
+  padding: 4rpx 0;
+}
+.comment .con3 image{
+  width:20rpx;
+  height:20rpx;
+  margin-left:12rpx;
+}
+
+.comment .con5{
+  margin:30rpx 0 40rpx 0;
+}
+.comment .con6 image{
+  width:150rpx;
+  height:150rpx;
+  border-radius: 12rpx;
+}
+.comment .con6 image:nth-child(n+2){
+  margin-left:20rpx;
+}
+.comment .con7{
+  width:100%;
+  margin:25rpx 0 40rpx 180rpx;
+}
+.shop{
+  margin-top:25rpx;
+  background: #fff;
+  box-sizing: border-box;
+  padding:25rpx;
+}
+
+.shop .h4{
+  padding-bottom:25rpx;
+  border-bottom:1rpx solid #f8f8f8;
+}
+
+.shop .shop1{
+  box-sizing: border-box;
+  padding:25rpx 50rpx 25rpx 0;
+  display:flex;
+  border-bottom:1rpx solid #f8f8f8;
+  position: relative;
+
+}
+
+.shop .shop2{
+  padding:25rpx 0;
+  display:flex;
+}
+.shop text{
+  line-height: 42rpx;
+}
+
+.shop .shop1 image:nth-child(1), .shop .shop2 image{
+  display: block;
+  width:40rpx;
+  height:40rpx;
+  flex-shrink: 0;
+  margin-right: 16rpx;
+}
+.shop .shop1 image:nth-child(3){
+  display: block;
+  width:16rpx;
+  height:30rpx;
+  flex-shrink: 0;
+  position: absolute;
+  top:50%;
+  margin-top:-15rpx;
+  right:25rpx;
+}
+
+.footer{
+  height:300rpx;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer image{
+  height:80rpx;
+  width:390rpx;
+}
